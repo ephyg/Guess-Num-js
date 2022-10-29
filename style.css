@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(82, 82, 80);
+}
+#container{
+    background-color: rgb(233, 233, 233);
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+}
+h1.head-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#body-container{
+    height: 350px;
+    width: 80%;
+    /* background-color: rgb(123, 123, 238); */
+    padding: 10px;
+    display: fle;
+}
+.score-container{
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+#score{
+    background-color: azure;
+    padding: 5px;
+    border-radius: 4px;
+}
+#Secret-number{
+    background-color: gold;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 5px;
+
+}
+#checkup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+}
+.checkup{
+    display: inline;
+    background-color: greenyellow;
+    height: 100%;
+    padding: 2px 10px;
+    border-radius: 5px;
+
+}
+
+.btm{
+    margin-bottom: 20px;
+}
+#main-guess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(224, 224, 222);
+    height: 150px;
+    border-radius: 10px;
+}
+#guess-yours {
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 20px;
+    padding: 10px 30px 10px 10px;
+    background-color: beige;
+    font-size: medium;
+    text-align: center;
+}
+
+#check-button,#restart {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    background-color:deepskyblue
+}
+#check-button:hover,#restart:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 10px 0.5px rgb(128, 126, 126);
+}
+.check-restart{
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+}
+#check-button{
+    margin-right: 10px;
+}
+/* 
+#container {
+    background-color: antiquewhite;
+    position: relative;
+    margin: 100px auto;
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+}
+body{
+    background-color: rgb(77, 65, 65);
+}
+
+
+h1.head-title {
+    position: absolute;
+    left: 100px;
+    font-size: 50px;
+}
+
+#Secret-number {
+    position: absolute;
+    padding: 15px 40px 15px 40px;
+    background-color: gold;
+    left: 220px;
+    top: 90px;
+    border-radius: 5px;
+    font-size: 35px;
+}
+#score-container{
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#main-guess {
+    position: absolute;
+    background-color: aquamarine;
+    left: 80px;
+    top: 225px;
+    padding: 20px 50px 75px 50px;
+    border-radius: 10px;
+
+}
+
+#guess-yours {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 10px 30px 10px 10px;
+    background-color: beige;
+    border-color: rgb(252, 155, 37);
+    font-size: medium;
+    text-align: center;
+}
+
+#check-button {
+    position: absolute;
+    left: 150px;
+    top: 75px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+#check-button:hover {
+    background-color: rgb(241, 92, 92);
+    color: bisque;
+}
+
+#checkup-container {
+    background-color: greenyellow;
+    position: absolute;
+    left: 175px;
+    top: 175px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+} */
